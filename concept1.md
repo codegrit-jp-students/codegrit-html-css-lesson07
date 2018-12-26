@@ -186,7 +186,7 @@ Webデザインにおいてなぜグリッドを使用するのがよいので�
 
 ![example2](./images/2columns.png)
 
-[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson07-sample-basic-grid)
+[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson07-sample-basic-grid/tree/master/without-wrap)
 
 ### 2. 2段以上のグリッドレイアウトに対応させる。
 
@@ -226,6 +226,7 @@ Webデザインにおいてなぜグリッドを使用するのがよいので�
 これで、2段のレイアウトが表示されるようになりました。
 
 ![example4](./images/example4.png)
+
 
 ### 3. rowクラスを導入して、横幅のずれを調整する。
 
@@ -308,6 +309,8 @@ Webデザインにおいてなぜグリッドを使用するのがよいので�
 ブラウザを更新してみましょう。三段すべてが揃っていることが確認出来るはずです。
 
 ![example6](./images/example6.png)
+
+[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson07-sample-basic-grid/tree/master/with-row)
 
 
 ## 様々なコンテナー幅へ対応する。
