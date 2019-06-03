@@ -100,6 +100,8 @@ Webデザインにおいてなぜグリッドを使用するのがよいので�
 
 ![example1](./images/example1.png)
 
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/8a1k9wtz/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 [サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson07-sample-columns)
 
 ## 様々なレイアウトに対応可能にする。
@@ -115,6 +117,12 @@ Webデザインにおいてなぜグリッドを使用するのがよいので�
 ```css
 * {
   box-sizing: border-box;
+}
+
+.ex-column {
+  min-height: 500px;
+  background-color: #ddd;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -186,6 +194,8 @@ Webデザインにおいてなぜグリッドを使用するのがよいので�
 
 ![example2](./images/2columns.png)
 
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/f6ut90eh/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 [サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson07-sample-basic-grid/tree/master/without-wrap)
 
 ### 2. 2段以上のグリッドレイアウトに対応させる。
@@ -210,6 +220,8 @@ Webデザインにおいてなぜグリッドを使用するのがよいので�
 
 ![example3](./images/example3.png)
 
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/q2n10Lg9/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 これは、現状だと`display: flex`のみがコンテナーに設定されているため、その下のカラムが増えたときにコンテナー内でアイテム(カラム)が縮んで表示されてしまうからです。
 
 これを回避するためには、コンテナーに`flex-wrap: wrap`を設定してあげて、横幅の960pxを超えた部分が下の段に来るようにします。
@@ -227,6 +239,7 @@ Webデザインにおいてなぜグリッドを使用するのがよいので�
 
 ![example4](./images/example4.png)
 
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/4khL5q7g/3/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### 3. rowクラスを導入して、横幅のずれを調整する。
 
@@ -259,6 +272,8 @@ Webデザインにおいてなぜグリッドを使用するのがよいので�
 変更してから再度画面を確認すると以下の画像のように表示されます。
 
 ![example5](./images/example5.png)
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/q3v9oy0e/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ご覧の通り、2段目のグレー部分の幅と、3段目のグレー部分の幅でズレが生じていることが分かるはずです。これはグリッドを利用している場合ガーター幅の分左右10pxずつpaddingが入っているためです。
 
@@ -309,6 +324,8 @@ Webデザインにおいてなぜグリッドを使用するのがよいので�
 ブラウザを更新してみましょう。三段すべてが揃っていることが確認出来るはずです。
 
 ![example6](./images/example6.png)
+
+<iframe width="100%" height="500" src="//jsfiddle.net/codegrit_hiro/4rjLtsnm/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 [サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson07-sample-basic-grid/tree/master/with-row)
 
@@ -432,9 +449,9 @@ Webデザインにおいてなぜグリッドを使用するのがよいので�
 
 これで再度ページを更新すると、画面幅いっぱいに幅を取るグリッドが出来ているはずです。
 
-
 ![example7](./images/example7.png)
 
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/0gh5kf1j/2/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 [サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson07-sample-flex-grid)
 
